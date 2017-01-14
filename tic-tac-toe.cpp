@@ -17,7 +17,7 @@ ofstream out("output"); // путь для выходного файла
 vector<string> getBoard() {
     vector<string> v(4);
     for (int i = 0; i < 4; ++i) {
-        cin >> v[i];
+        in >> v[i];
     }
     return v;
 }
